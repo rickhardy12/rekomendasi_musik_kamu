@@ -326,4 +326,4 @@ elif st.session_state["halaman"] == "Tentang":
     Seluruh proses kalkulasi penentuan kesesuaian berjalan secara efisien langsung di sisi server untuk memberikan respons jawaban seketika.
     """)
     
-    st.write("🔗 **Tautan Repositori Kode:** [Link GitHub](https://github.com/rhardian/music-recommender)")
+    st.write("🔗 **Tautan Repositori Kode:** [Link GitHub](https://github.com/rickhardy12/rekomendasi_musik_kamu)")

@@ -48,8 +48,8 @@ st.markdown("--- ")
 # HALAMAN: BERANDA
 # ==========================================
 if st.session_state["halaman"] == "Beranda":
-    st.title("🎵 Selamat Datang di Rekomendasi Musik")
-    st.markdown("#### Temukan lagu yang paling cocok dengan seleramu secara instan.")
+    st.title("🎵 Selamat Datang di Rekomendasi Musik Kamu")
+    st.markdown("#### Temukan lagu yang paling cocok dengan seleramu.")
     
     st.write("Silakan pilih pintu masuk pencarian di bawah ini:")
     
@@ -61,7 +61,7 @@ if st.session_state["halaman"] == "Beranda":
             st.session_state["mode"] = "Lagu"
             st.rerun()
             
-        st.info("**🌈 Dari Genre**")
+        st.info("**🎸 Dari Genre**")
         if st.button("Cari Lewat Genre", use_container_width=True):
             st.session_state["halaman"] = "Cari Lagu"
             st.session_state["mode"] = "Genre"

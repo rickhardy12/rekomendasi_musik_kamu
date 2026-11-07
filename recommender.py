@@ -10,7 +10,7 @@ from sklearn.metrics.pairwise import linear_kernel
 def split_genres(text):
     return text.split('|')
 
-def load_artifacts(base_dir="project"):
+def load_artifacts(base_dir=BASE_DIR):
     """Memuat seluruh berkas data, model, dan konfigurasi dari direktori proyek."""
     # 1. Muat Konfigurasi
     config_path = os.path.join(base_dir, "models", "config.json")

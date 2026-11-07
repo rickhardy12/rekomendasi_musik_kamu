@@ -7,6 +7,7 @@ from scipy.sparse import load_npz
 from sklearn.preprocessing import normalize
 from sklearn.metrics.pairwise import linear_kernel
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 def split_genres(text):
     return text.split('|')
 

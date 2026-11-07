@@ -1,0 +1,6 @@
+Metrik,Konfigurasi A (w_year = 0.0),Konfigurasi B (w_year = 0.15)
+Genre Precision@10,1.0,1.0
+Mean Jaccard@10,0.9534999999999999,0.9513642857142853
+Intra-List Diversity (ILD),0.018599421079764783,0.021070129844991955
+Catalog Coverage (%),17.793964620187307,27.617065556711758
+Mean |delta year| (Tahun),11.790557508789552,4.553775743707094

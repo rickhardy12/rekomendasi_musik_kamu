@@ -1,0 +1,88 @@
+{
+  "Romantis": {
+    "genres_primary": [
+      "Romance",
+      "Love"
+    ],
+    "genres_secondary": [
+      "Classic",
+      "Solo"
+    ],
+    "keywords": [
+      "love",
+      "heart",
+      "dream"
+    ],
+    "decade_filter": null
+  },
+  "Ceria": {
+    "genres_primary": [
+      "Folk",
+      "Classic"
+    ],
+    "genres_secondary": [
+      "Base"
+    ],
+    "keywords": [
+      "happy",
+      "dance",
+      "party"
+    ],
+    "decade_filter": null
+  },
+  "Sedih": {
+    "genres_primary": [
+      "Solo"
+    ],
+    "genres_secondary": [
+      "Classic"
+    ],
+    "keywords": [
+      "sad",
+      "cry",
+      "tears",
+      "blue",
+      "lonely"
+    ],
+    "decade_filter": null
+  },
+  "Energik": {
+    "genres_primary": [
+      "HeavyMetal",
+      "Rock"
+    ],
+    "genres_secondary": [
+      "Bass"
+    ],
+    "keywords": [
+      "dance",
+      "party",
+      "fire"
+    ],
+    "decade_filter": null
+  },
+  "Santai": {
+    "genres_primary": [
+      "Jazz",
+      "Folk"
+    ],
+    "genres_secondary": [
+      "Base"
+    ],
+    "keywords": [
+      "dream",
+      "blue",
+      "night"
+    ],
+    "decade_filter": null
+  },
+  "Nostalgia": {
+    "genres_primary": [
+      "Classic",
+      "Folk"
+    ],
+    "genres_secondary": [],
+    "keywords": [],
+    "decade_filter": 1980
+  }
+}

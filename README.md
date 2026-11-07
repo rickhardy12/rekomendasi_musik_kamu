@@ -36,7 +36,7 @@ Proyek ini adalah purwarupa sistem rekomendasi musik berbasis konten (Content-Ba
 1. Pastikan Anda telah menginstal Python 3.10 atau versi di atasnya.
 2. Kloning repositori ini dan masuk ke dalam foldernya:
    ```bash
-   git clone https://github.com/[ISI: username GitHub]/music-recommendation-system.git
+   git clonehttps://github.com/rickhardy12/rekomendasi_musik_kamu.git
    cd music-recommendation-system
    ```
 3. Pasang semua dependensi:

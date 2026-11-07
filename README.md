@@ -50,7 +50,7 @@ Proyek ini adalah purwarupa sistem rekomendasi musik berbasis konten (Content-Ba
 
 ## 🌐 Link Dashboard Aktif (Cloud)
 Anda dapat mengakses aplikasi web yang telah dideploy secara publik pada tautan berikut:  
-👉 **[ISI: URL dashboard]**
+👉 **https://rekomendasimusikkamu.streamlit.app/#temukan-rekomendasi-lagumu**
 
 ## ⚠️ Keterbatasan
 Sistem ini tidak merepresentasikan aspek psikologis selera musik manusia secara mutlak dan belum didukung data interaksi dinamis pengguna (*user-item rating*).

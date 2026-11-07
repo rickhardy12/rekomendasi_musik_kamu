@@ -8,7 +8,7 @@ st.set_page_config(page_title="Rekomendasi Musik", page_icon="🎵", layout="cen
 # 1. Pemuatan Artefak Secara Ter-cache
 @st.cache_resource
 def get_cached_artifacts():
-    return load_artifacts("project")
+    return load_artifacts()
 
 try:
     art = get_cached_artifacts()

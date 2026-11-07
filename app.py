@@ -90,7 +90,7 @@ if st.session_state["halaman"] == "Beranda":
 # HALAMAN: CARI LAGU
 # ==========================================
 elif st.session_state["halaman"] == "Cari Lagu":
-    st.title("🔍 Temukan Rekomendasi Lagumu")
+    st.title("🔍 Temukan Lagumu")
     
     # Segmented control atau radio
     try:

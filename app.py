@@ -151,14 +151,18 @@ elif st.session_state["halaman"] == "Cari Lagu":
             rules_g = get_rules_for_genre(art, last_g, side="antecedent", top_n=3)
             if len(rules_g) > 0:
                 st.write("💡 *Sering dipadukan dengan:* ")
+               chips = []
                 for _, r in rules_g.iterrows():
-                    conseqs = r['consequents'].split(', ')
-                    for c in conseqs:
-                        if c not in st.session_state["g_select"]:
-                            if st.button(f"➕ {c}", key=f"chip_{c}"):
-                                if len(st.session_state["g_select"]) < 3:
-                                    st.session_state["g_select"].append(c)
-                                    st.rerun()
+                    for c in r['consequents'].split(','):
+                        c = c.strip()
+                        if c and c not in chips and c not in st.session_state["g_select"]:
+                            chips.append(c)
+
+                for c in chips:
+                    if st.button(f"➕ {c}", key=f"chip_{c}"):
+                        if len(st.session_state["g_select"]) < 3:
+                            st.session_state["g_select"].append(c)
+                            st.rerun() 
                                     
     elif st.session_state["mode"] == "Mood":
         st.write("Pilih suasana hatimu saat ini:")

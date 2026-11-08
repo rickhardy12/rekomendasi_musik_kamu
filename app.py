@@ -151,7 +151,7 @@ elif st.session_state["halaman"] == "Cari Lagu":
             rules_g = get_rules_for_genre(art, last_g, side="antecedent", top_n=3)
             if len(rules_g) > 0:
                 st.write("💡 *Sering dipadukan dengan:* ")
-               chips = []
+                chips = []
                 for _, r in rules_g.iterrows():
                     for c in r['consequents'].split(','):
                         c = c.strip()
